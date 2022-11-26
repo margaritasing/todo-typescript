@@ -5,8 +5,7 @@ export const Todo = () => {
   return (
     <TodoProvider>
         <h1>Todo: </h1>
-        <TodoList/>
-          
+        <TodoList/>       
     </TodoProvider>
   )
 }
