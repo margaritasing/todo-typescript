@@ -1,7 +1,22 @@
+import { Todo } from "../interface/interface"
+
+interface props {
+    todo: Todo
+}
+
+export const TodoItem = ({todo}: props) => {
+
+    const handleDbClick = () => {
+        
+    }
 
 
-export const TodoItem = () => {
   return (
-    <div>TodoItem</div>
+    <div>
+        <li onDoubleClick={handleDbClick}>
+            {todo.desc}
+        </li>
+        
+    </div>
   )
 }
