@@ -1,10 +1,20 @@
 import { TodoContext } from "./TodoContext"
+import { TodoState } from '../interface/interface';
 
 
-const INITIAL_STATE = {
+const INITIAL_STATE: TodoState = {
     todoCount: 2,
     todos:[
-
+        {
+            id:'1',
+            desc:'Recolectar las piedras del infinito',
+            completed: false
+        },
+        {
+            id:'2',
+            desc:'Prueba- ejemplo',
+            completed: false
+        }
     ],
     completed: 0,
     pending: 2
