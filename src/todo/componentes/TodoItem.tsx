@@ -1,6 +1,6 @@
-import { useContext } from "react"
+/* import { useContext } from "react"
+import { TodoContext } from '../context/TodoContext'; */
 import { Todo } from "../interface/interface"
-import { TodoContext } from '../context/TodoContext';
 import { useTodos } from '../hooks/useTodos';
 
 

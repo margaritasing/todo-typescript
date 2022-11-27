@@ -1,5 +1,5 @@
-import { useContext } from 'react';
-import { TodoContext } from '../context/TodoContext';
+/* import { useContext } from 'react';
+import { TodoContext } from '../context/TodoContext'; */
 import { TodoItem } from './TodoItem';
 import { useTodos } from '../hooks/useTodos';
 

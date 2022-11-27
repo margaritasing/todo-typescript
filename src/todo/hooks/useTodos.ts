@@ -9,7 +9,7 @@ const { todos } = todoState;
 
 return {
     todos:todos,
-    pendingTodos:todos.filter( todo => !todo.completed),
+    pendingTodos:todos.filter( todo => !todo.completed).length,
     toggleTodo
 }
   
